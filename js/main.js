@@ -7,7 +7,7 @@ let loadImage = (src,callback) =>{
     myimage.src = src;
 };
 let imagePath = (frameNo,animationFolder) => {
-    return "../images/"+animationFolder+"/"+ String(frameNo)+".png";
+    return "./images/"+animationFolder+"/"+ String(frameNo)+".png";
 };
 let frames = {
     backward : [1,2,3,4,5,6],
