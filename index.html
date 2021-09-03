@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <title>
+            Profile
+        </title>
+        <style>
+            *{
+                margin: 20px;
+                
+            }
+            body{
+                text-align: center;        
+                
+            }
+            #main{
+                width: 1200px;
+                border: black solid 1px ;
+                border-radius: 10px;
+                margin: 50px;
+                background-color: lavender;
+                
+                text-align: left;
+            }
+            
+            #detail{
+                float:right;
+                text-align: left;
+            }
+            h4{
+                font-style: italic;
+                font-family: serif;
+            }
+            #skill {
+                box-sizing:border-box;
+                font-weight: bolder;                
+            }
+            .container {
+            width: 90%;
+            background-color: #ddd;
+            
+            }   
+            .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            color: white; 
+            }
+            .Programming {width: 90%; background-color: #04AA6D;}
+            .Robotics {width: 50%; background-color: #2196F3;} 
+            .IoT {width: 65%; background-color: #f44336;} 
+            .ML-AI {width: 60%; background-color: #8f8f8f; }
+            ul {
+            list-style: square inside url("/images/tick3.jpg") ;
+            background: #9ddfef;
+            padding: 3px;
+        }
+            ul li {
+                width:96%;
+                font-weight: bolder;  
+                background: #ededed;        
+                margin: 5px 5px;
+                padding: 5px;
+                color: #04AA6D;
+                text-align: left;
+            }
+            #project{
+                text-align: center;color: red; border-bottom: solid 1px grey;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1 style="color: turquoise;">Faculty Profile</h1>
+        <div id="main">
+            <div style="background-color: white;border-radius: 5px;border: solid white 5px;">
+                <img src="/images/spce.jpg" alt="College logo" 
+                style="border-radius: 5px;border: solid white 5px;position: relative;top: -10px;;"/>
+                
+                <img src="/images/mspatel.jpg" alt="Profile picture of M.S.Patel" 
+                style="border-radius: 25px;border: solid white 5px; width: 150px;position: relative;left: 50px;"/>
+                <div id="detail">
+                    <h1>Mehul Patel</h1>
+                    <h4>
+                    Assistant Professor,<br/>
+                    Sankalchand Patel College of Engineering,<br/>
+                    North Gujarat
+                    <br/><br/>
+                    Email id: mspatel.it@spcevng.ac.in
+                    </h4>
+                </div>
+            </div>
+            <hr/>
+            <h2>Education</h2>
+            <ul style="background: #8f8f8f;  ">
+                <li> B.E. (IT), 2003, GEC Modasa</li>
+                <li> M.Tech. CE(SE), 2018, SPCE Visnagar</li>
+            </ul>
+            <hr/>
+            <h2>Skill</h2>
+            <div id="skill">
+                <p>Programming <br/>( C / C++ / Java / C# / ASP.Net /J2EE / PHP / Python / Android / Kotlin / Flask )</p>
+                <div class="container">
+                    <div class="skills Programming"> 80% </div>
+                  </div>
+                  
+                  <p>Robotics</p>
+                  <div class="container">
+                    <div class="skills Robotics">50%</div>
+                  </div>
+                  
+                  <p>IoT</p>
+                  <div class="container">
+                    <div class="skills IoT">70%</div>
+                  </div>
+                  
+                  <p>ML&AI</p>
+                  <div class="container">
+                    <div class="skills ML-AI">60%</div>
+                  </div>
+            </div>
+            <hr/>
+            <div id="projects">
+                <h2> Project Development </h2>
+                <div id="project">
+                    <h2>Martial Arts Simulation <a href="play.html" target="_new">( Play )</a></h2>
+                    <div style="float: left; width: 60%;position: relative; top: -20px; left: -10px;">
+                        <ul>
+                            
+                            <li>Forward - Number Key 6</li>
+                            <li>Backward - Number Key 4</li>
+                            <li>Block - Number Key 5</li>
+                            <li>Punch - Number Key 8</li>
+                            <li>Kick - Number Key 2 </li>
+                            
+                        </ul>
+                    </div>
+                    <img src="/images/martial.jpg"/ style="width: 30%;">
+                    
+            </div>
+            <br/>
+
+                <div id="project">
+                    <h2 >Student Attendance Analysis (Online)</h2>
+                    <img src="/images/attendance.jpg"/ style="width: 30%;">
+                    <div style="float: right; width: 60%;position: relative; top: -20px; left: -10px;">
+                        <ul>
+                            <li>Manage no of classed</li>
+                            <li>Manage strength of classes & batches</li>
+                            <li>Manage Subjects</li>
+                            <li>Manage Faculties</li>
+                            <li>Manage Load Assignement of subject to Faculty</li>
+                            <li>Fill daily attendance respectively to assigned load</li>
+                            <li>Antendance Analysis Report Generation</li>
+                        </ul>
+                    </div>
+                </div>
+                <br/>
+                <div id="project">
+                    
+                        <h2>Result Analysis (Online)</h2>
+                        <div style="float: left; width: 60%;position: relative; top: -20px; left: -10px;">
+                            <ul>
+                                
+                                <li>Upload Student Enrollment Nos only</li>
+                                <li>Download Automatically online results</li>
+                                <li>Save result data from web page to database</li>
+                                <li>Subjectwise Analysis</li>
+                                <li>Classwise Analysis</li>
+                                <li>Overall Performance</li>
+                                <li>Top Rankers</li>
+                            </ul>
+                        </div>
+                        <img src="/images/result.jpg"/ style="width: 30%;">
+                        
+                </div>
+                <br/>
+                <div id="project" style="height: 75%;">
+                    <h2 >Teaching Learning Feedback (Online)</h2>
+                    <img src="/images/feedback.jpg"/ style="width: 30%;height: 50%;">
+                    <div style="float: right; width: 60%;position: relative; top: -20px; left: -10px;">
+                        <ul>
+                            <li>Upload Teaching Load</li>
+                            <li>Authorized Anonymous Feedback from Student</li>
+                            <li>Classwise Feebback Report</li>
+                            <li>Factutywise Feedback Report</li>
+                            <li>Overall Feedback Report</li>
+                            <li>Faculty View Feedback Report (individual)</li>
+                            <li>Antendance Analysis Report Generation</li>
+                        </ul>
+                    </div>
+                </div>
+                <br/>
+                <div id="project">
+                    <h2>Moodle setup for SPCE</h2>
+                    <div style="float: left; width: 60%;position: relative; top: -20px; left: -10px;">
+                        <ul>
+                            
+                            <li>Implementation & setup for moodle source code</li>
+                            <li>Prepare the Courses according to branch & semester</li>
+                            <li>Upload Teaching-Course mapping detail</li>
+                            <li>Upload Student-Course mapping detail</li>
+                            <li>Faculty Manage - Course content </li>
+                            <li>Student Access course content</li>
+                            <li>Submit the assignment</li>
+                            <li>Online MCQs exam</li>
+                        </ul>
+                    </div>
+                    <img src="/images/moodle.png"/ style="width: 30%;">
+                    
+            </div>
+            <br/>
+             
+            
+        </div>
+    </center>
+    </body>
+</html>
